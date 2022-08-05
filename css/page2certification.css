@@ -1,0 +1,168 @@
+html{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+width: 100%;
+height: 100%;
+/* background-color: red; */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'jikji';
+    src: url('../font/충북대직지체\ 설치파일.ttf');
+}
+@font-face {
+    font-family: 'yangjin';
+    src: url('../font/양진체v0.9_ttf.ttf');
+}
+@font-face {
+    font-family: 'jeonju';
+    src:url('../font/전주완판본\ 순B.ttf');
+}
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.certificationPage{
+    width: 100%;
+    height: 100%;
+}
+
+.cp_header{
+    width: 100%;
+    height: 48px;
+    background-color:#021B46;
+    position: relative;
+}
+.cp_header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.cp_prevBtn{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+.cp_title{
+    width: 100%;
+    height: 48px;
+    font-size: 28px;
+    font-family: "YANGIN";
+    color: white;
+}
+
+.cp_contnet{
+    width: 100%;
+
+}
+
+.mp_subtitle{
+    margin-left: 15px;
+}
+.cp_expression01{
+    margin-top: 22px;
+    font-size: 22px;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+.cp_expression02{
+    font-size: 14px;
+    font-family: 'S-CoreDream-4Regular';
+    color: #A1A09C;
+    margin-bottom: 5px;
+}
+
+.cp_certificationImg{
+    width: 100%;
+    height: 290px;
+    background-color: azure;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+
+
+.cp_btns{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 30px;
+}
+.cp_btn{
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    background-color: #13244A;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.cp_btn>img{
+    margin-left: 10px;
+}
+.cp_certificationImg{
+    background-image: url("../img/imgim.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

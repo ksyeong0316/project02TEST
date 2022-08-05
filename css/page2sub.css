@@ -1,0 +1,228 @@
+html{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+width: 100%;
+height: 100%;
+/* background-color: red; */
+}
+
+@font-face {
+    font-family: 'jikji';
+    src: url('../font/충북대직지체\ 설치파일.ttf');
+}
+@font-face {
+    font-family: 'yangjin';
+    src: url('../font/양진체v0.9_ttf.ttf');
+}
+@font-face {
+    font-family: 'jeonju';
+    src:url('../font/전주완판본\ 순B.ttf');
+}
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.missionPage{
+    width: 100%;
+    height: 100%;
+}
+
+.mp_header{
+    width: 100%;
+    height: 48px;
+    background-color:#021B46;
+    position: relative;
+    margin-bottom: 14px;
+}
+.mp_header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.mp_prevBtn{
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    color: white;
+}
+.mp_title{
+    width: 100%;
+    height: 48px;
+    font-size: 28px;
+    font-family: "YANGIN";
+    color: white;
+}
+
+.mp_contnet{
+    width: calc(100%-32px);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.mp_subtitle{
+ text-align: left;
+ margin-bottom: 16px;
+}
+
+.mp_expression01{
+    font-size: 22px;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+.mp_expression02{
+    font-size: 14px;
+    font-family: 'S-CoreDream-4Regular';
+    color: #A1A09C;
+}
+.mp_missionID{
+    color: #6270DD;
+}
+
+.mp_missionImg{
+    width: 100%;
+    height: 210px;
+    background-color: azure;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.mp_missionTitle{
+    width: 100%;
+    height: 30px;
+    background-color: #FFCF6D;
+    font-size: 18px;
+    font-family: 'S-CoreDream-6Bold';
+    margin-bottom: 14px;
+}
+.mp_missionTitle>span{
+color: #F1F1F1;
+}
+.mp_missionImg{
+ background-image: url("../img/binggo_img.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+
+.mp_missionContent{
+    margin-bottom: 60px;
+}
+.mp_mission{
+    width: 100%;
+    font-size: 16px;
+    font-family: "S-CoreDream-4Regular";
+    color: #211A17;
+}
+.mpp_direction{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'S-CoreDream-8Heavy';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.mpp_direction>p{
+border-bottom: solid 1px #FFCF6D;
+}
+.mpp_direction>img{
+width: 50px;
+height: 40px;
+}
+.mp_map{
+    width: 100%;
+    height: 270px;
+    background-color: aquamarine;
+    margin-bottom: 34px;
+}
+.mp_expression03{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: "S-CoreDream-4Regular";
+    color: #A1A09C;
+    margin-bottom: 50px;
+}
+
+.mp_btn{
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    opacity: 0.5;
+    
+}
+.mp_btnON{
+    background-color: #13244A;
+    color: #FFCF6D;
+    opacity: 1;
+}
+
+.mp_btnTEST{
+    margin: auto;
+    width: 160px;
+    height: 50px;
+    background-color: #f1f1f1;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    opacity: 0.5;
+    
+}

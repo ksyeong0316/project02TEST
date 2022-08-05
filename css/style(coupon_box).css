@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 148px;
+    background-color: #021B46;
+    border-radius: 0 0 16px 16px;
+}
+
+#header_arrow {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+}
+
+#header_font-1 {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'yangjin';
+
+}
+
+#header_font-2 {
+    position: absolute;
+    left: 39px;
+    top: 69px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#coupon_report {
+    position: relative;
+    top: -41px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 87.223%;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+#coupon_img {
+    position: absolute;
+    right: 18px;
+    top: -40px;
+}
+
+#report_text-1 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    top: 24px;
+    left: 24px;
+    font-weight: bold;
+}
+
+#coupon_gauge {
+    top: 0;
+}
+
+#coupon_gauge>img {
+    position: absolute;
+    top: 68.8px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#gauge_num {
+    position: absolute;
+    display: flex;
+    width: 287px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    justify-content: space-between;
+    top: 189.7px;
+}
+
+.gauge_num-all {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.coupon_all {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 77.78%;
+    height: 91px;
+
+    border-radius: 16px;
+}
+
+#coupon_1 {
+    margin-bottom: 16px;
+    background-color: #6270DD;
+}
+
+#coupon_2 {
+
+    background-color: #E5E5E5;
+}
+
+#coupon_title_1 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#coupon_title_2 {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#coupon_5000-img {
+    position: absolute;
+    margin-top: 39px;
+    width: 100%;
+    left: 58px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#coupon_10000-img {
+    position: absolute;
+    margin-top: 39px;
+    width: 100%;
+    left: 58px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#coupon_text_1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 39px;
+    right: 55px;
+}
+
+#coupon_text_2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 39px;
+    right: 55px;
+}
+
+
+
+.coupon_text-all {
+    text-align: center;
+}
+
+#coupon_text-1_1 {
+    font-size: 12px;
+}
+
+#coupon_text-1_2 {
+    font-size: 16px;
+}
+
+#coupon_text-2_1 {
+    font-size: 12px;
+}
+
+#coupon_text-2_2 {
+    font-size: 16px;
+}
+
+
+.couponArea{
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.couponBox{
+ min-width: 280px;
+ width: 77%;
+ height: 90px;
+ border-radius: 16px;
+ margin-bottom: 20px;
+ display: flex;
+
+}
+.couponBoxContent{
+    width: 75%;
+    height: 100%;
+    background-color: #6270DD   ;
+    border-radius: 16px 0 0 16px;
+    border: solid 2px #6270DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.couponBoxContent>p:first-child{
+    font-size: 10px;
+    font-family: 'S-CoreDream-6Bold';
+    color: #FFCF6D;
+}
+.couponBoxContent>p:last-child{
+    font-size: 29px;
+    font-family: 'S-CoreDream-8Heavy';
+    color: #FFFFFF;
+}
+.couponBoxState{
+    width: 35%;
+    height: 100%;
+    border-radius: 0px 16px 16px 0px;
+    border: solid 2px #6270DD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.couponBoxState>p:first-child{
+    font-size: 11px;
+    font-family: 'S-CoreDream-7ExtraBold';
+    color: #6270DD;
+}
+
+.imgBox{
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/download.png");
+}
+
+.couponUsed .couponBoxContent{
+    background-color: #CCCCCC;
+    border: 0px;
+}
+.couponUsed .couponBoxState{
+    border: 1px solid #CCCCCC;
+}
+.couponUsed .couponBoxContent>p{    
+    color: #FFFFFF;
+}
+.couponUsed .couponBoxState>p{
+    color: #6E6E6E;
+}
+.couponUsed .couponBoxState>p:last-child{
+    font-size: 15px;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+
+
+/* 빙고 현황  */
+.bingoBar{
+    width: 280px;
+    height: 10px;
+    background-color: #C7D4D6;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    position: absolute;
+    top: 68.8px;
+    margin-left: 7%;
+}
+.checkPointArea{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.checkPoint{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #FFCF6D;
+}
+.checkPoint:nth-child(1){
+left: 0;
+}
+.checkPoint:nth-child(2){
+left: 25%;
+}
+.checkPoint:nth-child(3){
+left: 50%;
+}
+.checkPoint:nth-child(4){
+left: 75%;
+}
+.checkPoint:nth-child(5){
+right: 0;
+}
+
+.passpoint{
+    width: 25%;
+}

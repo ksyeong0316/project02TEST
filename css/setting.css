@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'jikji';
+    src: url('../font/충북대직지체\ 설치파일.ttf');
+}
+@font-face {
+    font-family: 'yangjin';
+    src: url('../font/양진체v0.9_ttf.ttf');
+}
+@font-face {
+    font-family: 'jeonju';
+    src:url('../font/전주완판본\ 순B.ttf');
+}
+*{margin: 0;padding: 0;}
+body{
+    display: flex;
+    justify-content: center;
+}
+#wrapper{
+    width: 100%;
+    max-width: 1360px;
+    height: calc(var(--vh, 1vh) * 100);
+    /* background-color: aliceblue; */
+}
+#container{
+    width: 100%;
+    height: calc((100vh - 60px));
+    overflow-x: hidden;     
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#page1{
+    /* background-color: red; */
+    /* transform: translate(-100px) */
+}
+#page2{
+    /* background-color: blue; */
+    /* transform: translate(-100px) */
+}
+#page3{
+    /* background-color: green; */
+}
+.pages{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+#footer{
+    width: 100%;
+    height: 60px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+}
+#footer .btn{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#footer #btn1{
+    flex: 1;
+}
+#footer #btn2{
+    flex: 1;
+}
+#footer #btn3{
+    flex: 1;
+}
+.btnOn{
+    background-color: #13244A;
+    color: white;
+}
+
+
+
+.bigbox{
+    width: 100%;
+    height: 100%;
+}
+#menu_icon01{
+    background-image: url("../img/aa/mi01.svg");
+}
+.icon01On{
+    background-image: url("../img/aa/mi01_on.svg") !important;
+}
+#menu_icon02{
+    /* background-image: url("../img/aa/mi02.svg"); */
+    background-image: url("../img/그룹\ 651.jpg");
+} 
+.icon02On{
+    background-image: url("../img/aa/mi02_on.svg") !important;
+}
+#menu_icon03{
+    background-image: url("../img/aa/mi03.svg");
+}
+.icon03On{
+    background-image: url("../img/aa/mi03_on.svg") !important;
+}
+
+.menu_icon{
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+

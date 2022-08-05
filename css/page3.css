@@ -1,0 +1,211 @@
+html{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/*폰트-에스코어드림,양진체*/
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a{text-decoration: none;}
+
+/*body*/
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+/*#top*/
+.top_icon img{
+    width: 33%;
+    margin-bottom: -24px;
+}
+
+.top_title{
+    color: #13244A;
+    font-size: 38px;
+    margin-bottom: 44px;
+    font-family: '양진체';
+}
+
+/*#bottom*/
+
+.bottom_i ._input{
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.bottom_i ._input ._title{
+    text-align: start;
+    color: #C7D4D6;
+    /* margin-left: 15.5%; */
+    padding-bottom: 1px;
+    position: absolute;
+    left: 15.5%;
+    top: -48%;
+}
+
+.bottom_i ._input input{
+    width: 78.9%;
+    height: 36px;
+    border-radius: 21px;
+    border: 1px solid #C7D4D6;
+    font-size: 16px;
+    padding-left: 24px;/*입력위치 정하기*/
+    margin-bottom: 10px;/*아이디 패스워드 사이 띄우기*/
+}
+
+.bottom_i ._input div._img{
+    display: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 17%;
+    right: 14%;
+}
+
+.bottom_i ._input div._img img{
+    width: 100%;
+}
+
+.bottom_i ._input input:focus~div._title {
+    color: #211A17;
+}
+
+.bottom_i ._input input:focus {
+    outline: 2px solid #021B46;
+}
+
+.bottom_i ._input input:focus~div._img {
+    display: block;
+}
+
+.bottom_bnt{
+    margin-top: 4px;
+    width: 60.5%;
+    height: 42px;
+    border: none;
+    border-radius: 21px;
+    background-color: #FFCF6D;
+    font-size: 17px;
+    font-family: 'S-CoreDream-5Medium';
+}
+
+.bottom_ss{
+    display: flex;
+    justify-content: center;
+    margin-top: 27px;
+    margin-bottom: 31px;
+}
+
+.bottom_ss div{
+    width: 36%;
+    border-bottom: 1px solid #FFCF6D;
+    margin: 1.38%;
+}
+.singupModal{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 130%;
+    overflow-y: hidden;
+    
+}
+.singupBG{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+}
+
+.inputBox{
+    width: 100%;
+    padding: 0 60px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modalTitle{
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+.btnArea{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    font-size: 36px;
+    margin-top: 20px;
+}
+.inputBox{
+    margin-bottom: 16px;
+}

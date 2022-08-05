@@ -1,0 +1,396 @@
+html{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+width: 100%;
+height: 100%;
+/* background-color: red; */
+}
+@font-face {
+    font-family: 'jikji';
+    src: url('../font/충북대직지체\ 설치파일.ttf');
+}
+@font-face {
+    font-family: 'yangjin';
+    src: url('../font/양진체v0.9_ttf.ttf');
+}
+@font-face {
+    font-family: 'jeonju';
+    src:url('../font/전주완판본\ 순B.ttf');
+}
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#top_area {
+    margin-top: 22px;
+    margin-bottom: 12px;
+}
+
+#top_area>p:first-child {
+    margin-left: 24px;
+    font-size: 28px;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+
+#top_area>p:last-child {
+    margin-left: 23px;
+    font-size: 15px;
+    font-family: 'S-CoreDream-4Regular';    
+}
+#top_area>p:last-child>span {
+    color: #6270DD;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+
+#binggo_mission {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #021B46;
+    border-radius: 33px 0 0 0;
+}
+
+
+
+.clearFilter{
+    display: none !important;
+}
+
+ .binggo_all {
+    position: relative;
+    border-radius: 12px;
+    min-width: 290px;
+    width: calc(100% - 32px);
+    height: 130px;
+    margin-bottom: 13px;
+    background-color: rgba(255, 255, 255);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #6270DD;
+    font-family: 'S-CoreDream-5Medium';
+}
+
+.bingo_clear_img>div{
+width: 100%;
+height: 100%;
+backdrop-filter: brightness(30%);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+color: #FFCF6D;
+}
+.bingo_clear{
+    background-color: rgba(241, 241, 241, 0.79);
+    color: #3B382B;
+    font-size: 18px;
+    font-family: 'S-CoreDream-5Medium';
+}
+#binggo_1-img {
+    background-image: url("../img/mission/mission01.png");    
+}
+
+#binggo_2-img {
+    background-image: url("../img/mission/mission02.png");    
+}
+
+#binggo_3-img {
+    background-image: url("../img/mission/mission03.png");    
+}
+
+#binggo_4-img {
+    background-image: url("../img/mission/mission04.png");    
+}
+
+#binggo_5-img {
+    background-image: url("../img/mission/mission05.png");    
+}
+
+#binggo_6-img {
+    background-image: url("../img/mission/mission06.png");    
+}
+
+#binggo_7-img {
+    background-image: url("../img/mission/mission07.png");    
+}
+
+#binggo_8-img {
+    background-image: url("../img/mission/mission08.png");    
+}
+
+#binggo_9-img {
+    background-image: url("../img/mission/mission09.png");    
+}
+
+.binggo_item {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+#binggo_1-item {
+    background-image: url("../img/binggo_item1.png");
+}
+
+#binggo_2-item {
+    background-image: url("../img/binggo_item2.png");
+}
+
+#binggo_3-item {
+    background-image: url("../img/binggo_item3.png");
+}
+
+#binggo_4-item {
+    background-image: url("../img/binggo_item4.png");
+}
+
+#binggo_5-item {
+    background-image: url("../img/binggo_item5.png");
+}
+
+#binggo_6-item {
+    background-image: url("../img/binggo_item6.png");
+}
+
+#binggo_7-item {
+    background-image: url("../img/binggo_item7.png");
+}
+
+#binggo_8-item {
+    background-image: url("../img/binggo_item8.png");
+}
+
+#binggo_9-item {
+    background-image: url("../img/binggo_item9.png");
+}
+
+.binggo_img {
+    background-size: cover;
+    width: 106px;
+    height: 106px;
+    border-radius: 70%;
+    margin-left: 24px;
+    text-align: center;
+}
+
+.binggo_text {
+    min-width: 150px;
+    width: 41.6%;
+    font-size: 18px;
+    margin-left: 28px;
+}
+
+.pull-me {
+
+
+    cursor: pointer;
+}
+
+.panel {
+    background: #A5AFFF;
+    background-size: 90% 90%;
+    height: 462px;
+    display: none;
+    font-family: garamond, times-new-roman, serif;
+}
+
+
+
+.slide {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+.pull-me {
+    display: block;
+    position: relative;
+    right: 0px;
+    height: 28px;
+    background: #6270DD;
+    text-decoration: none;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pull-me_img {
+
+    background-image: url("../img/star_img.png");
+    background-size: cover;
+    width: 18px;
+    height: 17.12px;
+    margin-right: 6px;
+
+    display: flex;
+    align-items: center;
+}
+
+#pull-me_text {
+    font-family: 'jikji';
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+
+.pull-me p {
+    text-align: center;
+}
+
+#aa {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.panelHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-family: 'yangjin';
+    font-size: 55px;
+    padding-top: 23px;
+    margin-bottom: 13px;
+}
+.bingoCount{
+    margin-right: 20px;
+    color: #F1F1F1;
+}
+.bingoTitle{
+    background-color: #021B46;
+    width: 240px;
+    height: 48px;
+    color: #FFCF6D;
+    position: relative;
+}
+.bingoTitle>p{
+    position: absolute;
+    top: -13px;
+    left: 29px;
+}
+
+
+.bingoFilter{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.bingoFilter>div{
+    width: 84px;
+    height: 23px;
+    background-color: #C7D4D6;
+    border-radius: 11px;
+    margin-right: 16px;
+    margin-top: 16px;
+    margin-bottom: 13px;
+    text-align: center;
+}
+.onFIlter{
+    background-color: #A5AFFF !important;
+    color: #ffffff !important;
+}
+
+
+.binggo_layer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#binggo_layer_area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.binggo_layer {
+    height: 107px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.binggo_layer-all {
+    background-color: #C7D4D6;
+    width: 101px;
+    height: 101px;
+    border-radius: 70%;
+}
+
+.binggo_Check{
+    background-image: url(../img/binggo_img.png);
+    background-size: cover;
+    border: 7px solid #F3483A;
+    position: relative;
+}
+.binggo_Check>img{
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+}

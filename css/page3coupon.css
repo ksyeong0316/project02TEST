@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 148px;
+    background-color: #021B46;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+}
+
+#header_arrow {
+    position: absolute;
+    left: 16px;
+    top: 12px;
+}
+
+#header_font-1 {
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translate(-50%, 0);
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'yangjin';
+
+}
+
+#header_font-2 {
+    position: absolute;
+    left: 39px;
+    top: 69px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.placeCheck{
+    position: absolute;
+    bottom: 0px;
+    width: 82%;
+    height: 40px;
+    background-color: #717C93;
+    margin-left: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.placeCheck>p{
+    font-size: 14px;
+    color: #FFCF6D;
+    font-family: 'S-CoreDream-4Regular';
+}
+.contentArea{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.guideText{
+    font-size: 14px;
+    color: #6D6D6D;
+    font-family: 'S-CoreDream-4Regular';    
+    
+}
+.cpupon{
+    width: 280px;
+    height: 280px;
+    background-image: url("../img/그룹\ 729.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.textArea{
+    text-align: center;
+}
+.textArea>p:nth-child(1){
+    font-size: 20px;
+    color: #211A17;
+    font-family: 'S-CoreDream-3Light';
+}
+.textArea>p:nth-child(2){
+    font-size: 20px;
+    color: #6270DD;
+    font-family: 'S-CoreDream-7ExtraBold'; 
+}
+.textArea>p:nth-child(3){
+    font-size: 20px;
+    color: #6D6D6D;
+    font-family: 'S-CoreDream-4Regular';    
+}

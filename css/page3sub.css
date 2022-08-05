@@ -1,0 +1,146 @@
+html{width: 100%; height: 100%;}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/*폰트-에스코어드림,양진체*/
+@font-face {
+    font-family: 'S-CoreDream-1Thin';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-5Medium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-5Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-6Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-6Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-7ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-7ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-8Heavy';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-8Heavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-9Black';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: '양진체';
+    src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*초기화 스타일*/
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+a{text-decoration: none;}
+
+/*body*/
+body{
+    width: 100%;
+}
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+/*white*/
+#white{
+    margin: 22px 0 50px 16px;
+    /* margin-bottom: 50px; */
+    font-size: 20px;
+    font-family: 'S-CoreDream-7ExtraBold';
+}
+
+/*navy*/
+#navy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #13244A;
+    border-radius: 30px 30px 0 0;
+    height: calc(100vh - 100px);
+}
+
+.person{
+    width: 110px;
+    height: 68px;
+    position: relative;
+}
+.person img{
+    border: 5px solid #13244A;
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+}
+
+.name{
+    color: #F1F1F1;
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: 'S-CoreDream-6Bold';
+}
+
+.aa_wrap{
+    width: 81%;
+}
+
+.aa{
+    background: white;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 12px;
+}
+
+.aa_text{
+    font-family: 'S-CoreDream-5Medium';
+}
+
+.aa_img{
+    width: 24px;
+    height: 24px;
+}
+
+.aa_img img{
+    width: 100%;
+}

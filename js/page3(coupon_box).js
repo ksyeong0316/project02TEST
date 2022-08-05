@@ -149,14 +149,11 @@ getClickCouponData()
   useCoupon()
  }
 
- function view(){}
- console.log("setinterval!!!")
- if(couponList.length=0){}else{
+
  couponList.forEach((item)=>{
   couponView(item)
-})}
+})
 
- view()
 
 
  function useCoupon(){

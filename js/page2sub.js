@@ -114,7 +114,7 @@ function changeMissionData(missionID){
     mp_missionID.innerHTML = missionData[missionID].id
     mp_missionTitle.innerHTML = missionData[missionID].spot
     mp_mission.innerHTML = missionData[missionID].content
-    mp_missionImg.style.backgroundImage = `url("../img/mission/mission0${missionID+1}.png")`
+    mp_missionImg.style.backgroundImage = `url("./img/mission/mission0${missionID+1}.png")`
     
     makeMap(mp_latitude, mp_longitude)
 }

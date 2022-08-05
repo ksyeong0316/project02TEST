@@ -59,7 +59,7 @@ function setConstructor(){
         document.querySelectorAll(".binggo_img")[i].classList.add("bingo_clear_img")
         document.querySelectorAll(".binggo_img")[i].innerHTML = "<div>완료!</div>"
         document.querySelectorAll(".binggo_layer-all")[i].classList.add("binggo_Check")
-        document.querySelectorAll(".binggo_layer-all")[i].style.backgroundImage = `url("../img/mission/mission0${i+1}.png")`
+        document.querySelectorAll(".binggo_layer-all")[i].style.backgroundImage = `url("./img/mission/mission0${i+1}.png")`
         document.querySelectorAll(".binggo_layer-all")[i].innerHTML = `<img src="./img/그룹 818.png">`
         }}}
 setConstructor()

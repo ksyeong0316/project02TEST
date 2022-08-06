@@ -17,25 +17,6 @@ function getcouponList(){
 getMissonData()
 getcouponList()
 
-function filtercouponList(){
-  let checkCount = getBingoNumber()
-  console.log(checkCount)
-  console.log(couponList)
-  if(checkCount < 5){
-    console.log(couponList)
-    couponList.length = 2
-    if(checkCount < 3){
-      console.log(couponList)
-      couponList.length = 1
-      if(checkCount < 1){
-        console.log(couponList)
-        couponList.length = 0
-      }
-    }
-
-  }
-}
-filtercouponList()
 console.log(couponList)
 
 
@@ -85,11 +66,11 @@ function prevPageBtn(){
 
   function changeBingoBar(count){
     console.log("aaa")
-    if(count >= 5){count=4}
+    if(count >= 5){count=5}
     let checkPoint = document.querySelectorAll(".checkPoint")
     if(count == 0) return
-    for(let i = 0; i<count ; i++){
-      checkPoint[i].classList.add("passpoint")
+    for(let i = 1; i<count ; i++){
+      checkPoint[i-1].classList.add("passpoint")
     }
   }
 
@@ -150,7 +131,7 @@ getClickCouponData()
  }
 
 
- couponList.forEach((item)=>{
+ couponList?.forEach((item)=>{
   couponView(item)
 })
 
@@ -219,3 +200,30 @@ function changeUsedCoupon(inputNumber){
 //     // , 'http://127.0.0.1:5500/index.html' 
 // )
 }
+
+
+function couponBoxrfilter(){
+  let couponBox =document.querySelectorAll(".couponBox")
+  let count = 0;
+  if(missionData[0].completion && missionData[1].completion & missionData[2].completion){count++}
+  if(missionData[0].completion && missionData[3].completion & missionData[6].completion){count++}
+  if(missionData[0].completion && missionData[4].completion & missionData[8].completion){count++}
+  if(missionData[1].completion && missionData[4].completion & missionData[7].completion){count++}
+  if(missionData[2].completion && missionData[5].completion & missionData[8].completion){count++}
+  if(missionData[2].completion && missionData[4].completion & missionData[6].completion){count++}
+  if(missionData[3].completion && missionData[4].completion & missionData[5].completion){count++}
+  if(missionData[6].completion && missionData[7].completion & missionData[8].completion){count++}
+  if(count < 1){
+    couponBox[0].remove()
+    couponBox[1].remove()
+    couponBox[2].remove()
+  }else if(count <3){
+    couponBox[1].remove()
+    couponBox[2].remove()
+  }else if(count < 5){
+  couponBox[2].remove()
+  }else{
+    console.log("bingo!")
+  }
+}
+couponBoxrfilter()
